@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FirstTestSuite" verbose="1">
+    <parameter name="expectedCount" value="2"/>
+
+    <test name="SeriousTest">
+        <classes>
+            <class name="com.project.ui_tests.NotebookSearchTest"/>
+        </classes>
+    </test>
+</suite>
